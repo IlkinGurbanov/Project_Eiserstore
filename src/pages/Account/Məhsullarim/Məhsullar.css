@@ -1,0 +1,28 @@
+
+
+.məhsul{
+    overflow: hidden;
+    width: 60%;
+}
+
+.məhsulhead{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.Tablehead{
+    background-color: #43A047;
+    color: white;
+}
+
+.trash{
+    cursor: pointer;
+    font-size: 20px;
+}
+.trash:hover{
+    color: red;
+}
+
+.tablecell{
+    height: 50px !important;
+}

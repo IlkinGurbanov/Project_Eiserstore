@@ -1,0 +1,26 @@
+
+.Error{
+    background-color: rgb(190, 187, 187);
+    width: 100vw;
+    height: 100vh;
+}
+.error{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.errorhead{
+    font-size: 100px;
+    font-weight: bold;
+    margin: 0;
+}
+.errortextfirst{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+.errortext{
+    font-size: 20px;
+}

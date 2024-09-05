@@ -1,0 +1,236 @@
+@media only screen and (min-width:1436px) {
+    .profile{
+        padding-top: 80px;
+    }
+    
+    .profilename{
+        font-size: 30px;
+    }
+    .profilesurname{
+        font-size: 30px;
+    
+    }
+    .profilenumber{
+        font-size: 30px;
+    
+    }
+    .profilemail{
+        font-size: 30px;
+    
+    }
+    .usericon{
+        font-size: 150px;
+    }
+    
+    
+    .sidecontainer{
+        display: flex;
+        gap: 50px;
+    }
+    .profilesidebar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 20%;
+        border-right: 1px solid gray;
+        height: 50vw;
+        background-color: #212529;
+        color: white;
+    }
+    .profileinfo{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    
+    .profilesidebarhead{
+        font-size: 40px;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+    .profilesidebaritem{
+        font-size: 25px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        /* padding-left: 50px; */
+    }
+    .profilesidebaritem:hover{
+        color: gray;
+    }
+    /* ----------------- */
+    
+    .Footer{
+        /* padding-top: 0px; */
+    }
+    
+    
+    .pphome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1436px){
+    .profile{
+        padding-top: 80px;
+    }
+    
+    .profilename{
+        font-size: 20px;
+    }
+    .profilesurname{
+        font-size: 20px;
+    
+    }
+    .profilenumber{
+        font-size: 20px;
+    
+    }
+    .profilemail{
+        font-size: 20px;
+    
+    }
+    .usericon{
+        font-size: 100px;
+    }
+    
+    
+    .sidecontainer{
+        display: flex;
+        gap: 50px;
+    }
+    .profilesidebar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 20%;
+        border-right: 1px solid gray;
+        height: 50vw;
+        background-color: #212529;
+        color: white;
+    }
+    .profileinfo{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    
+    .profilesidebarhead{
+        font-size: 30px;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+    .profilesidebaritem{
+        font-size: 20px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        /* padding-left: 50px; */
+    }
+    .profilesidebaritem:hover{
+        color: gray;
+    }
+    /* ----------------- */
+    
+    .Footer{
+        /* padding-top: 0px; */
+    }
+    
+    
+    .pphome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width:300px) and (max-width:768px){
+    .profile{
+        padding-top: 80px;
+    }
+    
+    .profilename{
+        font-size: 15px;
+    }
+    .profilesurname{
+        font-size: 15px;
+    
+    }
+    .profilenumber{
+        font-size: 15px;
+    
+    }
+    .profilemail{
+        font-size: 15px;
+    
+    }
+    .usericon{
+        font-size: 50px;
+    }
+    
+    
+    .sidecontainer{
+        display: flex;
+        gap: 50px;
+    }
+    .profilesidebar{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        width: 20%;
+        border-right: 1px solid gray;
+        height: 50vw;
+        background-color: #212529;
+        color: white;
+    }
+    .profileinfo{
+        padding-top: 80px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    
+    
+    .profilesidebarhead{
+        font-size: 20px;
+        font-weight: bold;
+        padding-left: 50px;
+    }
+    .profilesidebaritem{
+        font-size: 15px;
+        display: block;
+        text-decoration: none;
+        color: white;
+        /* padding-left: 50px; */
+    }
+    .profilesidebaritem:hover{
+        color: gray;
+    }
+    /* ----------------- */
+    
+    .Footer{
+        /* padding-top: 0px; */
+    }
+    
+    
+    .pphome{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        font-size: 30px;
+    }
+}

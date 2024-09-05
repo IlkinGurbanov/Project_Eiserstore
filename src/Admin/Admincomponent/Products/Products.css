@@ -1,0 +1,28 @@
+
+
+.products{
+    padding-left: 400px;
+    padding-right: 100px;
+    overflow: hidden;
+} 
+
+.productshead{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.tablehead{
+    background-color: #4090e0;
+}
+
+.trash{
+    cursor: pointer;
+    font-size: 20px;
+}
+.trash:hover{
+    color: red;
+}
+
+.tablecell{
+    height: 50px !important;
+}

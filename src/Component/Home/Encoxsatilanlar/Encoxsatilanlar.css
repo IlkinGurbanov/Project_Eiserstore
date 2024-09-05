@@ -1,0 +1,175 @@
+.moresell{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.moresellhead{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.moresellcontainer{
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.moresellcart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 260px;
+    height: 420px;
+    cursor: pointer;
+}
+.moresellcart:hover{
+    transform:scale(1.1);
+    transition-duration: 2sn;
+    box-shadow: 2px 3.5px 24px 0 rgb(18 16 11 / 31%);
+}
+.moresellcartimage{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.moreselloff{
+    /* position: absolute; */
+    top: 0;
+    left: 50px;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.moresellcartimg{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+.moresellcarttext{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 240px;
+    padding: 40px 20px 10px 20px;
+    height: 140px;
+}
+.moresellcarttitletext{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.moresellcartabouttext{
+    font-size: 18px;
+    margin: 0;
+}
+.moresellcartstars{
+    font-size: 10px;
+    margin: 0;
+}
+
+
+
+.moreselldivprice{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.moresellcartprice{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+}
+
+.moresellcartpriceoff{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+.moresellcarticonheart{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+.moresellcarticonbasket{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+.moresellcarticoneye{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+.moresellcarticonheart:hover{
+    color: red;
+}
+.moresellcarticonbasket:hover{
+    color: red;
+}
+.moresellcarticoneye:hover{
+    color: red;
+}
+.cartstar{
+    font-size: 20px;
+    color: yellow;
+}
+
+.moreselldefaultcontainer{
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.moreselldefaultcart{
+    background-color: rgb(192, 192, 192);
+    width: 260px;
+    height: 421.6px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+
+
+
+.coxsatilancarusel{
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

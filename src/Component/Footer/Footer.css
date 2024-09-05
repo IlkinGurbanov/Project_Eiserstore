@@ -1,0 +1,101 @@
+.Footer{
+    /* padding-top: 200px; */
+}
+.footer{
+    background-color: #0D0D1F;
+}
+
+.endfooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+}
+.endfooterstart{
+    padding-left: 50px;
+}
+.endfooterend{
+    padding-right: 50px;
+    text-decoration: underline;
+}
+
+
+.upfooter{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: white;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;    
+}
+.foothome{
+    color: white;
+}
+.foothomehead{
+    font-size: 25px;
+    font-weight: bold;
+}
+.foothomeitem{
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+.footproduct{
+    color: white;
+}
+.footproducthead{
+    font-size: 25px;
+    font-weight: bold;
+}
+.footproductitem{
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+}
+.footproductitem:hover{
+    color: rgb(116, 112, 112);
+}
+
+
+
+.footcontact{
+    color: white;
+}
+.footcontacthead{
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 25px 0px;
+}
+.footcontactitem{
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    display: flex; 
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+}
+.footcontactitem:hover{
+    color: rgb(116, 112, 112);
+}
+
+.contacticon{
+    font-size: 25px;
+}
+.contacticontext{
+    font-size: 18px;
+}

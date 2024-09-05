@@ -1,0 +1,175 @@
+.new{
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+.newhead{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.newcontainer{
+    padding-left: 20px;
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.newcart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 260px;
+    height: 420px;
+    cursor: pointer;
+}
+.newcart:hover{
+    transform:scale(1.1);
+    transition-duration: 2sn;
+    box-shadow: 2px 3.5px 24px 0 rgb(18 16 11 / 31%);
+}
+.newcartimage{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.newoff{
+    /* position: absolute; */
+    top: 0;
+    left: 50px;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.newcartimg{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+.newcarttext{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    flex-direction: column;
+    width: 250px;
+    padding: 40px 30px 10px 30px;
+    height: 140px;
+}
+.newcarttitletext{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.newcartabouttext{
+    font-size: 18px;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.newcartstars{
+    font-size: 10px;
+    margin: 0;
+}
+
+
+
+.newdivprice{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.newcartprice{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+}
+
+.newcartpriceoff{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+.newcarticonheart{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+.newcarticonbasket{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+
+.newcarticoneye{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 46px;
+    cursor: pointer;
+}
+.newcarticonheart:hover{
+    color: red;
+}
+.newcarticonbasket:hover{
+    color: red;
+}
+.newcarticoneye:hover{
+    color: red;
+}
+.cartstar{
+    font-size: 20px;
+    color: yellow;
+}
+
+.newdefaultcontainer{
+    padding-left: 20px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.newdefaultcart{
+    background-color: rgb(192, 192, 192);
+    width: 260px;
+    height: 421.6px;
+    border: 1px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.yenicarusel{
+    height: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
+}

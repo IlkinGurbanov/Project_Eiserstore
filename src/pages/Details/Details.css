@@ -1,0 +1,129 @@
+@media only screen and (min-width:640px){
+    .details{
+        padding-top: 80px;
+    }
+    .detailscontainer{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+    .detailsimgside{
+        border-radius: 10px;
+        width: 640px;
+        height: 640px;
+    }
+    .detailsimage{
+        width: 640px;
+        height: 640px;
+    }
+    
+    .detailstextside{
+        width: 400px;
+    }
+    .detailstitle{
+        font-size: 25px;
+    }
+    
+    .Favorilercartprice{
+        font-size: 25px;
+    }
+    .Favorilercartpriceoff{
+        font-size: 25px;
+    }
+    .rowtitle{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .detailsabout{
+        font-size: 25px;
+    }
+    .detailscategory{
+        font-size: 25px;
+    }
+    .detailskind{
+        font-size: 25px;
+    }
+    .detailsbrend{
+        font-size: 25px;
+    }
+    .detailscolor{
+        font-size: 25px;
+    }
+    
+    .detailsaddtobasket{
+        width: 200px;
+        height: 50px;
+        border-radius: 15px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+
+@media only screen and (min-width:200px) and (max-width:640px){
+    .details{
+        padding-top: 80px;
+    }
+    .detailscontainer{
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 100px;
+    }
+    .detailsimgside{
+        border-radius: 10px;
+        width: 320px;
+        height: 320px;
+    }
+    .detailsimage{
+        width: 320px;
+        height: 320px;
+    }
+    
+    .detailstextside{
+        width: 400px;
+    }
+    .detailstitle{
+        font-size: 25px;
+    }
+    
+    .Favorilercartprice{
+        font-size: 25px;
+    }
+    .Favorilercartpriceoff{
+        font-size: 25px;
+    }
+    .rowtitle{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .detailsabout{
+        font-size: 25px;
+    }
+    .detailscategory{
+        font-size: 25px;
+    }
+    .detailskind{
+        font-size: 25px;
+    }
+    .detailsbrend{
+        font-size: 25px;
+    }
+    .detailscolor{
+        font-size: 25px;
+    }
+    
+    .order{
+        width: 200px;
+        height: 50px;
+        background-color: red;
+        border-radius: 15px;
+        color: white;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,1007 @@
+
+@media only screen and (min-width:900px){
+.Navbarmenubarformobile{
+    display: none;
+}
+.navcenterformobile{
+    display: none;
+}
+.navbar{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+}
+.navcenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.search{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+}
+.searchinput{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+.searchinput[type=text]:focus{
+    border: none;
+}
+.searchicon{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.navendiconsitem{
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu{
+    display: none;
+}
+.heart:hover{
+    color: red;
+}
+.user:hover{
+    color: red;
+}
+.basket:hover{
+    color: red;
+}
+
+
+.navcenteritem{
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+/* .navcenteritem:active{
+    color: rgb(67, 190, 67);
+} */
+.navcenteritem:hover{
+    color: rgb(67, 190, 67);
+}
+.navlogo{
+    cursor: pointer;
+    width: 137px;
+    height: 38px;
+}
+
+
+
+/* ------------------ */
+.dropdown1{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head1{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head1:hover{
+    color: rgb(67, 190, 67);
+}
+.dropdown1item1{
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown1:hover .dropdown1item1{
+    display:block;
+    position: absolute;
+}
+.dropdown1element1{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element1:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+/* ----------------------------------- */
+
+
+.dropdown2{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head2{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head2:hover{
+    color: rgb(67, 190, 67);
+}
+.dropdown1item2{
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown2:hover .dropdown1item2{
+    display:flex;
+    gap: 30px;
+    position: absolute;
+    left: -200px;
+}
+.dropdown1element2{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element2:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+.dropdown1itemhead2{
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+}
+
+
+.categoryimage1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px;
+}
+
+.categoryimage1item{
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+/* --------------------------- */
+
+
+
+.navendicons{
+    position: relative;
+}
+.navendiconsuser{
+    display: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.navendicons:hover .navendiconsuser{
+    display: block;
+    position: absolute;
+    left: -30px;
+}
+.navendiconsItem1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.navendiconsItem2{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navendiconsItem1 , .navendiconsItem2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.navendiconsItem1:hover , .navendiconsItem2:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+}
+
+
+@media only screen and (min-width:600px) and (max-width:900px){
+    
+.navbar{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    z-index: 1;
+    height: 70px;
+}
+.navcenter{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+
+.search{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+}
+.searchinput{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+.searchinput[type=text]:focus{
+    border: none;
+}
+.searchicon{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+.navendiconsitem{
+    font-size: 20px;
+    cursor: pointer;
+}
+.menu{
+    color: black;
+}
+.menu:hover{
+    color: red;
+}
+
+.heart:hover{
+    color: red;
+}
+.user:hover{
+    color: red;
+}
+.basket:hover{
+    color: red;
+}
+
+
+.navcenteritem{
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+/* .navcenteritem:active{
+    color: rgb(67, 190, 67);
+} */
+.navcenteritem:hover{
+    color: rgb(67, 190, 67);
+}
+.navlogo{
+    cursor: pointer;
+    width: 137px;
+    height: 38px;
+}
+
+
+
+/* ------------------ */
+.dropdown1{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head1{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head1item{
+    color: black !important;
+    text-decoration: none;
+}
+.dropdown1head1:hover{
+    color: rgb(67, 190, 67);
+}
+.dropdown1item1{
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown1:hover .dropdown1item1{
+    display:block;
+    position: absolute;
+}
+.dropdown1element1{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element1:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+/* ----------------------------------- */
+
+
+.dropdown2{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head2{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head2:hover{
+    color: rgb(67, 190, 67);
+}
+.dropdown1item2{
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown2:hover .dropdown1item2{
+    display:flex;
+    gap: 30px;
+    position: absolute;
+    left: -200px;
+}
+.dropdown1element2{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element2:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+.dropdown1itemhead2{
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+}
+
+
+.categoryimage1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    padding: 10px;
+}
+
+.categoryimage1item{
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+/* --------------------------- */
+
+
+
+.navendicons{
+    position: relative;
+}
+.navendiconsuser{
+    display: none;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.navendicons:hover .navendiconsuser{
+    display: block;
+    position: absolute;
+    left: -30px;
+}
+.navendiconsItem1{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.navendiconsItem2{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.navendiconsItem1 , .navendiconsItem2{
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+.navendiconsItem1:hover , .navendiconsItem2:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+
+
+/* ---------------------- */
+
+.Navbarmenubarformobile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navcenterformobile{
+    padding-top: 80px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.navcenteritemformobile{
+    font-size: 18px;
+    cursor: pointer;
+    color: black;
+    text-decoration: none;
+}
+.navcenteritemformobile:hover{
+    color: rgb(67, 190, 67);
+}
+.navlogoformobile{
+    cursor: pointer;
+    width: 137px;
+    height: 38px;
+}
+
+
+.dropdown1formobile{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head1formobile{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head1formobile:hover{
+    color: rgb(67, 190, 67);
+}
+.dropdown1item1formobile{
+    display: none;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown1formobile:hover .dropdown1item1formobile{
+    display:block;
+    position: absolute;
+}
+.dropdown1element1formobile{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element1formobile:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+
+.dropdown2formobile{
+    position: relative;
+    font-size: 18px;
+    cursor: pointer;
+}
+.dropdown1head2formobile{
+    margin: 0;
+    padding: 0;
+}
+.dropdown1head2formobileitem , .dropdown1head2formobileitem1{
+    color: black !important;
+    text-decoration: none !important;
+}
+.dropdown1head2formobile:hover{
+    color: rgb(67, 190, 67);
+}
+/* /////////////////////////// */
+.dropdown1item2formobile{
+    display: none;
+    z-index: 1;
+    background-color: white;
+    /* display: flex; */
+    flex-direction: column;
+
+    border: 1px solid gray;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+.dropdown2formobile:hover .dropdown1item2formobile{
+    display:flex;
+    gap: 30px;
+    position: absolute;
+    /* left: -320px; */
+}
+.dropdown1element2formobile{
+    padding: 10px 15px 10px 15px;
+    margin: 0;
+    text-decoration: none;
+    display: block;
+    color: black;
+}
+
+
+.dropdown1element2formobile:hover{
+    color: white;
+    background-color: rgb(67, 190, 67);
+}
+
+.dropdown1itemhead2formobile{
+    margin: 0;
+    padding: 10px 10px 0px 10px;
+}
+
+/* ///////////////////////////// */
+.categoryimage1formobile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 10px;
+}
+
+.categoryimage1itemformobile{
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+
+/* .menu:hover .navcenterformobile{
+    display: block !important;
+} */
+}
+
+/* 500 */
+@media only screen and (min-width:200px) and (max-width:600px){
+    
+    .navbar{
+        padding-top: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        top: 0;
+        z-index: 1;
+        height: 70px;
+    }
+    .navcenter{
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .navend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    
+    
+    
+    .search{
+        border: 1px solid;
+        border-radius: 10px;
+        display: none;
+        align-items: center;
+        justify-content: space-between;
+        width: 250px;
+        height: 40px;
+    }
+    .searchinput{
+        border: none;
+        padding: 5px;
+        border-radius: 10px;
+        outline: none;
+        padding-left: 10px;
+    }
+    .searchinput[type=text]:focus{
+        border: none;
+    }
+    .searchicon{
+        font-size: 20px;
+        padding: 5px;
+        cursor: pointer;
+    }
+    .navendiconsitem{
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .menu{
+        color: black;
+    }
+    .menu:hover{
+        color: red;
+    }
+    
+    .heart:hover{
+        color: red;
+    }
+    .user:hover{
+        color: red;
+    }
+    .basket:hover{
+        color: red;
+    }
+    
+    
+    .navcenteritem{
+        font-size: 18px;
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+    }
+    /* .navcenteritem:active{
+        color: rgb(67, 190, 67);
+    } */
+    .navcenteritem:hover{
+        color: rgb(67, 190, 67);
+    }
+    .navlogo{
+        cursor: pointer;
+        width: 137px;
+        height: 38px;
+    }
+    
+    
+    
+    /* ------------------ */
+    .dropdown1{
+        position: relative;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .dropdown1head1{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown1head1item{
+        color: black;
+        text-decoration: none;
+    }
+    .dropdown1head1:hover{
+        color: rgb(67, 190, 67);
+    }
+    .dropdown1item1{
+        display: none;
+        border: 1px solid gray;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .dropdown1:hover .dropdown1item1{
+        display:block;
+        position: absolute;
+    }
+    .dropdown1element1{
+        padding: 10px 15px 10px 15px;
+        margin: 0;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+    
+    
+    .dropdown1element1:hover{
+        color: white;
+        background-color: rgb(67, 190, 67);
+    }
+    
+    /* ----------------------------------- */
+    
+    
+    .dropdown2{
+        position: relative;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .dropdown1head2{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown1head2:hover{
+        color: rgb(67, 190, 67);
+    }
+    .dropdown1item2{
+        display: none;
+        border: 1px solid gray;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .dropdown2:hover .dropdown1item2{
+        display:flex;
+        gap: 30px;
+        position: absolute;
+        left: -200px;
+    }
+    .dropdown1element2{
+        padding: 10px 15px 10px 15px;
+        margin: 0;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+    
+    
+    .dropdown1element2:hover{
+        color: white;
+        background-color: rgb(67, 190, 67);
+    }
+    
+    .dropdown1itemhead2{
+        margin: 0;
+        padding: 10px 10px 0px 10px;
+    }
+    
+    
+    .categoryimage1{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 50px;
+        padding: 10px;
+    }
+    
+    .categoryimage1item{
+        border-radius: 10px;
+        width: 200px;
+        height: 150px;
+    }
+    /* --------------------------- */
+    
+    
+    
+    .navendicons{
+        position: relative;
+    }
+    .navendiconsuser{
+        display: none;
+        border: 1px solid gray;
+        border-radius: 15px;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .navendicons:hover .navendiconsuser{
+        display: block;
+        position: absolute;
+        left: -30px;
+    }
+    .navendiconsItem1{
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+    }
+    .navendiconsItem2{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    .navendiconsItem1 , .navendiconsItem2{
+        text-align: center;
+        margin: 0;
+        padding: 10px;
+        cursor: pointer;
+    }
+    .navendiconsItem1:hover , .navendiconsItem2:hover{
+        color: white;
+        background-color: rgb(67, 190, 67);
+    }
+    
+    
+    
+    /* ---------------------- */
+    
+    .Navbarmenubarformobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navcenterformobile{
+        padding-top: 80px;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+    .navcenteritemformobile{
+        font-size: 18px;
+        cursor: pointer;
+        color: black;
+        text-decoration: none;
+    }
+    .navcenteritemformobile:hover{
+        color: rgb(67, 190, 67);
+    }
+    .navlogoformobile{
+        cursor: pointer;
+        width: 137px;
+        height: 38px;
+    }
+    
+    
+    .dropdown1formobile{
+        position: relative;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .dropdown1head1formobile{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown1head1formobile:hover{
+        color: rgb(67, 190, 67);
+    }
+    .dropdown1item1formobile{
+        display: none;
+        border: 1px solid gray;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .dropdown1formobile:hover .dropdown1item1formobile{
+        display:block;
+        position: absolute;
+    }
+    .dropdown1element1formobile{
+        padding: 10px 15px 10px 15px;
+        margin: 0;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+    
+    
+    .dropdown1element1formobile:hover{
+        color: white;
+        background-color: rgb(67, 190, 67);
+    }
+    
+    
+    .dropdown2formobile{
+        position: relative;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    .dropdown1head2formobile{
+        margin: 0;
+        padding: 0;
+    }
+    .dropdown1head2formobile:hover{
+        color: rgb(67, 190, 67);
+    }
+    /* /////////////////////////// */
+    .dropdown1item2formobile{
+        display: none;
+        z-index: 1;
+        background-color: white;
+        /* display: flex; */
+        flex-direction: column;
+    
+        border: 1px solid gray;
+        background-color: white;
+        padding: 0;
+        margin: 0;
+    }
+    .dropdown2formobile:hover .dropdown1item2formobile{
+        display:flex;
+        gap: 30px;
+        position: absolute;
+        /* left: -320px; */
+    }
+    .dropdown1element2formobile{
+        padding: 10px 15px 10px 15px;
+        margin: 0;
+        text-decoration: none;
+        display: block;
+        color: black;
+    }
+    
+    
+    .dropdown1element2formobile:hover{
+        color: white;
+        background-color: rgb(67, 190, 67);
+    }
+    
+    .dropdown1itemhead2formobile{
+        margin: 0;
+        padding: 10px 10px 0px 10px;
+    }
+    
+    /* ///////////////////////////// */
+    .categoryimage1formobile{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px;
+    }
+    
+    .categoryimage1itemformobile{
+        border-radius: 10px;
+        width: 200px;
+        height: 150px;
+    }
+    
+    
+    /* .menu:hover .navcenterformobile{
+        display: block !important;
+    } */
+
+    .dropdown1head2formobileitem1{
+        color: black;
+        text-decoration: none;
+    }
+}
+
+

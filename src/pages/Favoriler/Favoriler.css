@@ -1,0 +1,189 @@
+.Favoriler{
+    padding-top: 0px;
+    padding-bottom: 200px;
+}
+.Favorilerhead{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.Favorilercontainer{
+    padding-left: 15px;
+    padding-right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 100vw;
+    flex-direction: row;
+}
+.Favorilercart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 5px;
+    width: 270px;
+    height: 420px;
+    cursor: pointer;
+}
+.Favorilercart:hover{
+    transform:scale(1.1);
+    transition-duration: 2sn;
+    box-shadow: 2px 3.5px 24px 0 rgb(18 16 11 / 31%);
+}
+.Favorilercartimage{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+}
+
+.Favorileroff{
+    /* position: absolute; */
+    top: 0;
+    left: 50px;
+    z-index: 1;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    width: 60px;
+    border-radius: 15px;
+}
+
+.Favorilercartimg{
+    width: 160px;
+    height: 160px;
+    border-radius: 5px;
+    position: relative;
+    z-index: -1;
+}
+.Favorilercarttext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 260px;
+    height: 140px;
+    padding: 30px 20px 10px 20px;
+}
+.Favorilercarttitletext{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+.Favorilercartabouttext{
+    font-size: 18px;
+    margin: 0;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.Favorilercartstars{
+    font-size: 10px;
+    margin: 0;
+}
+
+
+
+.Favorilerdivprice{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.Favorilercartprice{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+}
+
+.Favorilercartpriceoff{
+    font-size: 18px;
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+.Favorilercarticonheart{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 85px;
+    cursor: pointer;
+}
+
+.Favoricarticoneye{
+    font-size: 30px;
+    padding: 20px;
+    background-color: yellow;
+    height: 20px;
+    width: 85px;
+    cursor: pointer;
+}
+.Favorilercarticonheart:hover{
+    color: red;
+}
+.Favorilercarticonbasket:hover{
+    color: red;
+}
+.cartstar{
+    font-size: 20px;
+    color: yellow;
+}
+
+
+.Kategoriyaheadtext{
+    font-size: 20px;
+}
+
+
+/* ---------------------- */
+
+
+.Kategoriyahead{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+}
+.Kategoriyasearch{
+    border: 1px solid;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 250px;
+    height: 40px;
+}
+.Kategoriyasearchinput{
+    border: none;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+}
+.Kategoriyasearchinput[type=text]:focus{
+    border: none;
+}
+.Kategoriyasearchicon{
+    font-size: 20px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.Favorilerheadcontainer{
+    display: flex;
+    gap: 20px;
+}
+.Favorilerfilter{
+    width: 16vw;
+    height: 500px;
+    border: 1px solid;
+}
+
+

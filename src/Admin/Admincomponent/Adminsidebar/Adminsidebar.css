@@ -1,0 +1,42 @@
+.adminsidebar{
+    background-color: #093A6B;
+    color: white;
+    position: fixed;
+    height: 100vh;
+    left: 0;
+    width: 300px;
+}
+.adminconfig{
+    display: flex;
+    align-items: center;
+    padding-left: 17px;
+}
+.config{
+    font-size: 30px;
+}
+.adminsidebarcontainer{
+    padding-top: 20px;
+    padding-left: 50px;
+}
+
+.adminsidebarhead{
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+}
+.adminsidebaritem{
+    font-size: 25px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 30px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.adminsidebaritem:hover{
+    color: rgb(152, 150, 150);
+}
+
+

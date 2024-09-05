@@ -1,0 +1,36 @@
+.giftcard{
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.giftcardhead{
+    font-size: 40px;
+}
+.giftcarts{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.goldcart{
+
+}
+.goldcarthead{
+    font-size: 30px;
+}
+.silvercart{
+
+}
+.silvercarthead{
+    font-size: 30px;
+}
+.bronzecart{
+
+}
+.bronzecarthead{
+    font-size: 30px;
+}
+
+
+.goldcartitem{
+    background-color: #DAA520;
+    color: white;
+}

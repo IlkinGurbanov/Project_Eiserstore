@@ -1,0 +1,34 @@
+.services{
+    padding-top: 80px;
+}
+.servicestext{
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+}
+.servicescontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.servicescart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    border: 1px solid;
+    width: 230px;
+    height: 150px;
+}
+.servicesboxicon{
+    font-size: 30px;
+}
+.servicesboxtitle{
+    font-size: 15px;
+    margin: 0;
+    font-weight: bold;
+    padding: 0px 30px 20px 30px;
+}

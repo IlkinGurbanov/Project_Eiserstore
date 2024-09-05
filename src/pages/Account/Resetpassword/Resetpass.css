@@ -1,0 +1,28 @@
+.reset{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+}
+.resetcontainer{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+}
+.form{
+    padding-bottom: 40px;
+}
+.btn{
+    background-color: rgb(52, 219, 52);
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    width:100%;
+    cursor: pointer;
+    color: white;
+}
+.pass{
+    text-decoration: underline;
+    color: rgb(5, 5, 236);
+    cursor: pointer;
+}

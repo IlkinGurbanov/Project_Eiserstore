@@ -13,6 +13,8 @@ import Aos from 'aos'
 import "aos/dist/aos.css"
 import {Helmet} from "react-helmet";
 import {BiBlock} from 'react-icons/bi'
+import Skeleton from '@mui/material/Skeleton';
+import Stack from '@mui/material/Stack';
 
 function valuetext(value) {
   return `${value}`;
@@ -25,6 +27,8 @@ function Kateqoriya() {
   const {Category} = useParams()
   const {Kind} = useParams() 
   const [data,setdata] = useState([])
+  const [SkeletonCase,setSkeletonCase] = useState(false)
+
   const [Search,setSearch] = useState("")
   const [Color,setColor] = useState("")
   const [Brend,setBrend] = useState("")
@@ -83,6 +87,8 @@ function Kateqoriya() {
     });
     
     setdata(res.data)
+    setSkeletonCase(true)
+
   }
   useEffect(()=>{
       getdata()
@@ -257,7 +263,71 @@ useEffect(() => {
                   <button className="silverbtn KateqoriyafilterColor" onClick={()=>{setColor("silver")}} />
                 </div>
             </div>
+
+            
             <div className="Kateqoriyacontainer" data-aos="fade-up">
+            {SkeletonCase ? (
+            console.log('waiting..')
+          ):(
+            <>
+            <div id='skeleton' style={{display:'flex' , justifyContent:'center', alignItems:'center' , gap:'20px'}}>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+          </div>
+          <div id='skeleton' style={{display:'flex' , justifyContent:'center', alignItems:'center' , gap:'20px'}}>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+          </div>
+            </>
+          )}
+
+
             {((data.filter(x=>x.kind === Kind))
             .filter(element=> element.keyforSearch.toLowerCase().includes(Search.toLowerCase()))
             .filter(elem=> elem.color.toLowerCase().includes(Color.toLowerCase()))

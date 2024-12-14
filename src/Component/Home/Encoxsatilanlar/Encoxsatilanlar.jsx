@@ -7,15 +7,19 @@ import { useNavigate } from 'react-router-dom';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
+import Skeleton from '@mui/material/Skeleton';
+import Stack from '@mui/material/Stack';
 function Encoxsatilanlar() {
   // const RootUrl = 'https://eiserwebserver.757jn1b.repl.co'
   const RootUrl = 'https://eiserwebserver.onrender.com'
 
   const [data,setdata] = useState([])
+  const [SkeletonCase,setSkeletonCase] = useState(false)
+
   const [favdata
     ,setfavdata] = useState([])
   const [basketdata,setbasketdata] = useState([])
-  const [loading,setloading] = useState(true)
+
 
   const [id,setid] = useState([])
 
@@ -44,10 +48,10 @@ function Encoxsatilanlar() {
       });
     });
 
-    setdata(res.data)
-    setloading(true)
+    // setdata(res.data)
     setdata(res.data.filter(x=>x.moresell === "true"))
-    setloading(false)
+    setSkeletonCase(true)
+
   }
   useEffect(()=>{
       getdata()
@@ -184,32 +188,103 @@ function detail(id){
 
         <div className="moresellcontainer">
           
-          {
-            loading ? (
-              <div className="moreselldefaultcontainer">
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-                <div className="moreselldefaultcart">
-                </div>
-            </div>
-            ):
-            (<Carousel className='coxsatilancarusel' responsive={responsive}>
+        {SkeletonCase ? (
+            console.log('waiting..')
+          ):(
+            <>
+            <div id='skeleton' style={{display:'flex' , justifyContent:'center', alignItems:'center' , gap:'20px'}}>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+          </div>
+          <div id='skeleton' style={{display:'flex' , justifyContent:'center', alignItems:'center' , gap:'20px'}}>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+            <Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack><Stack spacing={1}>
+            <Skeleton variant="rounded" width={260} height={200} />
+              <div style={{ width:'250px', display:'flex', flexDirection:'column' , alignItems:'center', gap:'5px'}}>
+                <Skeleton variant="rectangular" width={220} height={20}/>
+                <Skeleton variant="rectangular" width={220} height={50}/>
+                <Skeleton variant="rectangular" width={100} height={20}/>
+                <Skeleton variant="rectangular" width={250} height={40}/>
+              </div>
+            </Stack>
+          </div>
+            </>
+          
+          )}
+
+            {/* (<Carousel className='coxsatilancarusel' responsive={responsive}> */}
               {data.map((item)=>(
                 <div key={item._id} className="moresellcart">
                   <div className="moresellcartimage">
@@ -260,8 +335,7 @@ function detail(id){
                   </div>
                 </div>  
                 ))}
-            </Carousel>)
-          }
+            {/* </Carousel>) */}
         </div>
     </div>
   )
